@@ -1,6 +1,6 @@
 {
     "defaults": {
-        "currency": "USD",
+        "currency": "IRT",
         "convert": true
     },
     "currencies": {
@@ -6115,7 +6115,7 @@
             "thousands_separator": ","
         },
         "AE": {
-            "name": "\u00c6ternity",
+            "name": "Æternity",
             "code": 90463,
             "symbol": "AE",
             "precision": 4,
@@ -11455,7 +11455,7 @@
             "thousands_separator": ","
         },
         "FB": {
-            "name": "Fenerbah\u00e7e Token",
+            "name": "Fenerbahçe Token",
             "code": 90921,
             "symbol": "FB",
             "precision": 4,
@@ -12735,7 +12735,7 @@
             "thousands_separator": ","
         },
         "TOP": {
-            "name": "Pa\u2019anga",
+            "name": "Pa’anga",
             "code": 776,
             "precision": 2,
             "subunit": 100,
@@ -12905,7 +12905,7 @@
             "thousands_separator": ","
         },
         "GOZ": {
-            "name": "G\u00f6ztepe S.K. Fan Token",
+            "name": "Göztepe S.K. Fan Token",
             "code": 91176,
             "symbol": "GOZ",
             "precision": 4,
@@ -13059,7 +13059,7 @@
             "code": 586,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20a8",
+            "symbol": "₨",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -14499,7 +14499,7 @@
             "code": 422,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u0644.\u0644",
+            "symbol": "ل.ل",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -16009,7 +16009,7 @@
             "code": 144,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20a8",
+            "symbol": "₨",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -16719,7 +16719,7 @@
             "code": 48,
             "precision": 3,
             "subunit": 1000,
-            "symbol": "\u0628.\u062f",
+            "symbol": "ب.د",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -16965,7 +16965,7 @@
             "thousands_separator": ","
         },
         "GALO": {
-            "name": "Clube Atl\u00e9tico Mineiro Fan Token",
+            "name": "Clube Atlético Mineiro Fan Token",
             "code": 91508,
             "symbol": "GALO",
             "precision": 4,
@@ -16985,7 +16985,7 @@
             "thousands_separator": ","
         },
         "IBFK": {
-            "name": "\u0130stanbul Ba\u015fak\u015fehir Fan Token",
+            "name": "İstanbul Başakşehir Fan Token",
             "code": 91455,
             "symbol": "IBFK",
             "precision": 4,
@@ -17499,7 +17499,7 @@
             "code": 760,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u00a3S",
+            "symbol": "£S",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -17784,10 +17784,10 @@
             "decimal_mark": ".",
             "thousands_separator": ","
         },
-        "\u03a4BTC": {
-            "name": "\u03c4Bitcoin",
+        "ΤBTC": {
+            "name": "τBitcoin",
             "code": 91816,
-            "symbol": "\u03a4BTC",
+            "symbol": "ΤBTC",
             "precision": 4,
             "subunit": 100,
             "symbol_first": false,
@@ -19129,7 +19129,7 @@
             "code": 690,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20a8",
+            "symbol": "₨",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -19685,7 +19685,7 @@
             "thousands_separator": ","
         },
         "IOC": {
-            "name": "I\/O Coin",
+            "name": "I/O Coin",
             "code": 92014,
             "symbol": "IOC",
             "precision": 4,
@@ -20719,7 +20719,7 @@
             "code": 728,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u00a3",
+            "symbol": "£",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -27115,11 +27115,11 @@
             "thousands_separator": ","
         },
         "TRY": {
-            "name": "T\u00fcrkliras\u0131",
+            "name": "Türklirası",
             "code": 949,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20ba",
+            "symbol": "₺",
             "symbol_first": 1,
             "decimal_mark": ",",
             "thousands_separator": ".",
@@ -27130,7 +27130,7 @@
             "code": 410,
             "precision": 0,
             "subunit": 1,
-            "symbol": "\u20a9",
+            "symbol": "₩",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -29130,7 +29130,7 @@
             "code": 504,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u062f.\u0645.",
+            "symbol": "د.م.",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -29590,7 +29590,7 @@
             "code": 981,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u10da",
+            "symbol": "ლ",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -30476,7 +30476,7 @@
             "thousands_separator": ","
         },
         "DFX": {
-            "name": "DeFi\u00b2",
+            "name": "DeFi²",
             "code": 94446,
             "symbol": "DFX",
             "precision": 4,
@@ -30826,14 +30826,14 @@
             "thousands_separator": ","
         },
         "IRT": {
-            "name": "Infinity Rocket Token",
-            "code": 92848,
-            "symbol": "IRT",
-            "precision": 4,
-            "subunit": 100,
+            "name": "Iranian Toman (تومان)",
+            "code": 0,
+            "precision": 0,
+            "subunit": 1,
+            "symbol": "تومان",
             "symbol_first": false,
-            "decimal_mark": ".",
-            "thousands_separator": ","
+            "decimal_mark": "٫",
+            "thousands_separator": "،"
         },
         "MAYP": {
             "name": "Maya Preferred",
@@ -30910,7 +30910,7 @@
             "code": 50,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u09f3",
+            "symbol": "৳",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -35520,7 +35520,7 @@
             "code": 604,
             "precision": 2,
             "subunit": 100,
-            "symbol": "S\/",
+            "symbol": "S/",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -37700,7 +37700,7 @@
             "code": 985,
             "precision": 2,
             "subunit": 100,
-            "symbol": "z\u0142",
+            "symbol": "zł",
             "symbol_first": false,
             "decimal_mark": ",",
             "thousands_separator": " "
@@ -40216,7 +40216,7 @@
             "thousands_separator": ","
         },
         "DOGA": {
-            "name": "DOGAM\u00cd",
+            "name": "DOGAMÍ",
             "code": 94800,
             "symbol": "DOGA",
             "precision": 4,
@@ -41825,10 +41825,10 @@
             "decimal_mark": ".",
             "thousands_separator": ","
         },
-        "HDP.\u0444": {
+        "HDP.ф": {
             "name": "HEdpAY",
             "code": 94473,
-            "symbol": "HDP.\u0444",
+            "symbol": "HDP.ф",
             "precision": 4,
             "subunit": 100,
             "symbol_first": false,
@@ -48030,7 +48030,7 @@
             "code": 356,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20b9",
+            "symbol": "₹",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -50006,7 +50006,7 @@
             "thousands_separator": ","
         },
         "MOON": {
-            "name": "r\/CryptoCurrency Moons",
+            "name": "r/CryptoCurrency Moons",
             "code": 93258,
             "symbol": "MOON",
             "precision": 4,
@@ -50046,7 +50046,7 @@
             "thousands_separator": ","
         },
         "ARTEQ": {
-            "name": "art\u00e8Q",
+            "name": "artèQ",
             "code": 93263,
             "symbol": "ARTEQ",
             "precision": 4,
@@ -50826,7 +50826,7 @@
             "thousands_separator": ","
         },
         "PRUF": {
-            "name": "PR\u00fcF Protocol",
+            "name": "PRüF Protocol",
             "code": 93480,
             "symbol": "PRUF",
             "precision": 4,
@@ -51430,7 +51430,7 @@
             "code": 764,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u0e3f",
+            "symbol": "฿",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -51876,7 +51876,7 @@
             "thousands_separator": ","
         },
         "DSK": {
-            "name": "Dar\u00fc\u015f\u015fafaka Spor Kul\u00fcb\u00fc Token",
+            "name": "Darüşşafaka Spor Kulübü Token",
             "code": 93643,
             "symbol": "DSK",
             "precision": 4,
@@ -51896,7 +51896,7 @@
             "thousands_separator": ","
         },
         "CRVFRAX": {
-            "name": "Curve.fi FRAX\/USDC",
+            "name": "Curve.fi FRAX/USDC",
             "code": 93742,
             "symbol": "CRVFRAX",
             "precision": 4,
@@ -54456,7 +54456,7 @@
             "thousands_separator": ","
         },
         "GBSK": {
-            "name": "Gen\u00e7lerbirli\u011fi Fan Token",
+            "name": "Gençlerbirliği Fan Token",
             "code": 94356,
             "symbol": "GBSK",
             "precision": 4,
@@ -55296,7 +55296,7 @@
             "thousands_separator": ","
         },
         "TMFT": {
-            "name": "T\u00fcrkiye Motosiklet Federasyonu Fan Token",
+            "name": "Türkiye Motosiklet Federasyonu Fan Token",
             "code": 94525,
             "symbol": "TMFT",
             "precision": 4,
@@ -57390,7 +57390,7 @@
             "code": 532,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u0192",
+            "symbol": "ƒ",
             "symbol_first": true,
             "decimal_mark": ",",
             "thousands_separator": "."
@@ -57616,7 +57616,7 @@
             "thousands_separator": ","
         },
         "FKSK": {
-            "name": "Fatih Karag\u00fcmr\u00fck SK Fan Token",
+            "name": "Fatih Karagümrük SK Fan Token",
             "code": 94990,
             "symbol": "FKSK",
             "precision": 4,
@@ -57680,7 +57680,7 @@
             "code": 784,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u062f.\u0625",
+            "symbol": "د.إ",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -57690,7 +57690,7 @@
             "code": 971,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u060b",
+            "symbol": "؋",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -57700,7 +57700,7 @@
             "code": 51,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u0564\u0580.",
+            "symbol": "դր.",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -57730,7 +57730,7 @@
             "code": 533,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u0192",
+            "symbol": "ƒ",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -57740,7 +57740,7 @@
             "code": 944,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20bc",
+            "symbol": "₼",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -57750,7 +57750,7 @@
             "code": 977,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u041a\u041c",
+            "symbol": "КМ",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -57770,7 +57770,7 @@
             "code": 975,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u043b\u0432",
+            "symbol": "лв",
             "symbol_first": false,
             "decimal_mark": ",",
             "thousands_separator": " "
@@ -57910,7 +57910,7 @@
             "code": 156,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u00a5",
+            "symbol": "¥",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -57920,7 +57920,7 @@
             "code": 188,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20a1",
+            "symbol": "₡",
             "symbol_first": true,
             "decimal_mark": ",",
             "thousands_separator": "."
@@ -57960,7 +57960,7 @@
             "code": 203,
             "precision": 2,
             "subunit": 100,
-            "symbol": "K\u010d",
+            "symbol": "Kč",
             "symbol_first": false,
             "decimal_mark": ",",
             "thousands_separator": "."
@@ -57990,7 +57990,7 @@
             "code": 12,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u062f.\u062c",
+            "symbol": "د.ج",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58000,7 +58000,7 @@
             "code": 818,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u062c.\u0645",
+            "symbol": "ج.م",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58020,7 +58020,7 @@
             "code": 978,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20ac",
+            "symbol": "€",
             "symbol_first": true,
             "decimal_mark": ",",
             "thousands_separator": "."
@@ -58040,7 +58040,7 @@
             "code": 238,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u00a3",
+            "symbol": "£",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58050,7 +58050,7 @@
             "code": 826,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u00a3",
+            "symbol": "£",
             "symbol_first": 1,
             "decimal_mark": ".",
             "thousands_separator": ",",
@@ -58061,7 +58061,7 @@
             "code": 936,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20b5",
+            "symbol": "₵",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58071,7 +58071,7 @@
             "code": 292,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u00a3",
+            "symbol": "£",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58171,7 +58171,7 @@
             "code": 376,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20aa",
+            "symbol": "₪",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58181,20 +58181,20 @@
             "code": 368,
             "precision": 3,
             "subunit": 1000,
-            "symbol": "\u0639.\u062f",
+            "symbol": "ع.د",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
         },
         "IRR": {
-            "name": "Iranian Rial",
+            "name": "Iranian Rial (ریال)",
             "code": 364,
-            "precision": 2,
-            "subunit": 100,
-            "symbol": "\ufdfc",
-            "symbol_first": true,
-            "decimal_mark": ".",
-            "thousands_separator": ","
+            "precision": 0,
+            "subunit": 1,
+            "symbol": "ریال",
+            "symbol_first": false,
+            "decimal_mark": "٫",
+            "thousands_separator": "،"
         },
         "JMD": {
             "name": "Jamaican Dollar",
@@ -58211,7 +58211,7 @@
             "code": 400,
             "precision": 3,
             "subunit": 100,
-            "symbol": "\u062f.\u0627",
+            "symbol": "د.ا",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58221,7 +58221,7 @@
             "code": 392,
             "precision": 0,
             "subunit": 1,
-            "symbol": "\u00a5",
+            "symbol": "¥",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58251,7 +58251,7 @@
             "code": 116,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u17db",
+            "symbol": "៛",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58271,7 +58271,7 @@
             "code": 408,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20a9",
+            "symbol": "₩",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58281,7 +58281,7 @@
             "code": 414,
             "precision": 3,
             "subunit": 1000,
-            "symbol": "\u062f.\u0643",
+            "symbol": "د.ك",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58301,7 +58301,7 @@
             "code": 398,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u3012",
+            "symbol": "〒",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58311,7 +58311,7 @@
             "code": 418,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20ad",
+            "symbol": "₭",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58361,7 +58361,7 @@
             "code": 434,
             "precision": 3,
             "subunit": 1000,
-            "symbol": "\u0644.\u062f",
+            "symbol": "ل.د",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58381,7 +58381,7 @@
             "code": 807,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u0434\u0435\u043d",
+            "symbol": "ден",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58401,7 +58401,7 @@
             "code": 496,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20ae",
+            "symbol": "₮",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58431,7 +58431,7 @@
             "code": 480,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20a8",
+            "symbol": "₨",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58501,7 +58501,7 @@
             "code": 566,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20a6",
+            "symbol": "₦",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58521,7 +58521,7 @@
             "code": 524,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20a8",
+            "symbol": "₨",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58541,7 +58541,7 @@
             "code": 512,
             "precision": 3,
             "subunit": 1000,
-            "symbol": "\u0631.\u0639.",
+            "symbol": "ر.ع.",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58551,7 +58551,7 @@
             "code": 590,
             "precision": 2,
             "subunit": 100,
-            "symbol": "B\/.",
+            "symbol": "B/.",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58561,7 +58561,7 @@
             "code": 608,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20b1",
+            "symbol": "₱",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58571,7 +58571,7 @@
             "code": 600,
             "precision": 0,
             "subunit": 1,
-            "symbol": "\u20b2",
+            "symbol": "₲",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58581,7 +58581,7 @@
             "code": 634,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u0631.\u0642",
+            "symbol": "ر.ق",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58591,7 +58591,7 @@
             "code": 941,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u0420\u0421\u0414",
+            "symbol": "РСД",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58601,7 +58601,7 @@
             "code": 643,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20bd",
+            "symbol": "₽",
             "symbol_first": false,
             "decimal_mark": ",",
             "thousands_separator": "."
@@ -58621,7 +58621,7 @@
             "code": 682,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u0631.\u0633",
+            "symbol": "ر.س",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58631,7 +58631,7 @@
             "code": 938,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u00a3",
+            "symbol": "£",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58661,7 +58661,7 @@
             "code": 654,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u00a3",
+            "symbol": "£",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58701,7 +58701,7 @@
             "code": 222,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20a1",
+            "symbol": "₡",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58721,7 +58721,7 @@
             "code": 972,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u0405\u041c",
+            "symbol": "ЅМ",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58731,7 +58731,7 @@
             "code": 788,
             "precision": 3,
             "subunit": 1000,
-            "symbol": "\u062f.\u062a",
+            "symbol": "د.ت",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58761,7 +58761,7 @@
             "code": 980,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u20b4",
+            "symbol": "₴",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58802,7 +58802,7 @@
             "code": 860,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\u043b\u0432",
+            "symbol": "лв",
             "symbol_first": true,
             "decimal_mark": ".",
             "thousands_separator": ","
@@ -58822,7 +58822,7 @@
             "code": 704,
             "precision": 0,
             "subunit": 1,
-            "symbol": "\u20ab",
+            "symbol": "₫",
             "symbol_first": true,
             "decimal_mark": ",",
             "thousands_separator": "."
@@ -58922,7 +58922,7 @@
             "code": 886,
             "precision": 2,
             "subunit": 100,
-            "symbol": "\ufdfc",
+            "symbol": "﷼",
             "symbol_first": false,
             "decimal_mark": ".",
             "thousands_separator": ","

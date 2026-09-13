@@ -236,12 +236,16 @@ class Installer
 
     public static function createCompany($name, $email, $locale)
     {
+        // Default currency for Iran locale
+        $default_currency = ($locale === 'fa-IR') ? 'IRT' : 'USD';
+
         dispatch_sync(new CreateCompany([
             'name' => $name,
             'domain' => '',
             'email' => $email,
-            'currency' => 'USD',
+            'currency' => $default_currency,
             'locale' => $locale,
+            'country' => ($locale === 'fa-IR') ? 'IR' : null,
             'enabled' => '1',
         ]));
     }
