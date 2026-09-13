@@ -87,7 +87,7 @@ return [
     |
     */
 
-    'timezone' => env('APP_TIMEZONE', 'UTC'),
+    'timezone' => env('APP_TIMEZONE', 'Asia/Tehran'),
 
     /*
     |--------------------------------------------------------------------------
@@ -100,7 +100,7 @@ return [
     |
     */
 
-    'locale' => env('APP_LOCALE', 'en-GB'),
+    'locale' => env('APP_LOCALE', 'fa-IR'),
 
     /*
     |--------------------------------------------------------------------------
@@ -113,7 +113,7 @@ return [
     |
     */
 
-    'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en-GB'),
+    'fallback_locale' => env('APP_FALLBACK_LOCALE', 'fa-IR'),
 
     /*
     |--------------------------------------------------------------------------
@@ -125,7 +125,7 @@ return [
     | localized telephone numbers, street address information and more.
     |
     */
-    'faker_locale' => env('APP_FAKER_LOCALE', 'en_GB'),
+    'faker_locale' => env('APP_FAKER_LOCALE', 'fa_IR'),
 
     /*
     |--------------------------------------------------------------------------

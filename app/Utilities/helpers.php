@@ -481,3 +481,36 @@ if (! function_exists('calculation_to_quantity')) {
         return $result;
     }
 }
+
+if (! function_exists('pnum')) {
+    /**
+     * Convert any Latin/Arabic-Indic digits in a string to Persian digits.
+     */
+    function pnum($value): string
+    {
+        return \App\Utilities\Persian::digits((string) $value);
+    }
+}
+
+if (! function_exists('jdate')) {
+    /**
+     * Format a Gregorian date as Jalali (Shamsi).
+     *
+     * @param string $format DateTime-style format; supports Y y m n d j F M H i s A a
+     * @param mixed  $timestamp Unix timestamp, strtotime()-parseable string, or null for now
+     */
+    function jdate(string $format = 'Y/m/d', $timestamp = null): string
+    {
+        return \App\Utilities\Persian::jdate($format, $timestamp);
+    }
+}
+
+if (! function_exists('to_jalali')) {
+    /**
+     * Convert a Gregorian Y,m,d to a Jalali [Y,m,d] array.
+     */
+    function to_jalali(int $gy, int $gm, int $gd): array
+    {
+        return \App\Utilities\Persian::toJalali($gy, $gm, $gd);
+    }
+}

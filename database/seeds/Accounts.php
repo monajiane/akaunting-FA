@@ -29,11 +29,13 @@ class Accounts extends Seeder
     {
         $company_id = $this->command->argument('company');
 
+        $currency_code = (app()->getLocale() === 'fa-IR' || env('APP_LOCALE') === 'fa-IR') ? 'IRT' : 'USD';
+
         $account = $this->dispatch(new CreateAccount([
             'company_id' => $company_id,
             'name' => trans('demo.accounts.cash'),
             'number' => '1',
-            'currency_code' => 'USD',
+            'currency_code' => $currency_code,
             'bank_name' => trans('demo.accounts.cash'),
             'enabled' => '1',
             'created_from' => 'core::seed',

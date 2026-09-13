@@ -41,6 +41,7 @@ class Kernel extends HttpKernel
             'header.x',
             'language',
             'firewall.all',
+            'localize.iran',
         ],
 
         'install' => [
@@ -190,6 +191,7 @@ class Kernel extends HttpKernel
         'money' => \App\Http\Middleware\Money::class,
         'read.only' => \App\Http\Middleware\CheckForReadOnlyMode::class,
         'wizard.redirect' => \App\Http\Middleware\RedirectIfWizardNotCompleted::class,
+        'localize.iran' => \App\Http\Middleware\LocalizeForIran::class,
 
         // Vendor
         'ability' => \Laratrust\Middleware\LaratrustAbility::class,

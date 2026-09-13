@@ -4,7 +4,7 @@ return [
 
     'defaults' => [
 
-        'currency'  => env('MONEY_DEFAULTS_CURRENCY', 'USD'),
+        'currency'  => env('MONEY_DEFAULTS_CURRENCY', 'IRT'),
 
         'convert'   => env('MONEY_DEFAULTS_CONVERT', true),
 
@@ -728,14 +728,25 @@ return [
         ],
 
         'IRR' => [
-            'name'                => 'Iranian Rial',
+            'name'                => 'Iranian Rial (ریال)',
             'code'                => 364,
-            'precision'           => 2,
-            'subunit'             => 100,
-            'symbol'              => '﷼',
-            'symbol_first'        => true,
-            'decimal_mark'        => '.',
-            'thousands_separator' => ',',
+            'precision'           => 0,
+            'subunit'             => 1,
+            'symbol'              => 'ریال',
+            'symbol_first'        => false,
+            'decimal_mark'        => '٫',
+            'thousands_separator' => '،',
+        ],
+
+        'IRT' => [
+            'name'                => 'Iranian Toman (تومان)',
+            'code'                => 0,
+            'precision'           => 0,
+            'subunit'             => 1,
+            'symbol'              => 'تومان',
+            'symbol_first'        => false,
+            'decimal_mark'        => '٫',
+            'thousands_separator' => '،',
         ],
 
         'ISK' => [

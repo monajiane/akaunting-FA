@@ -7,6 +7,7 @@ use App\View\Components\Media\Ffile as MFile;
 use App\View\Components\Form\Input\Ffile;
 use App\View\Components\Index\Ddefault;
 use App\Traits\DateTime;
+use App\Utilities\Persian;
 use Illuminate\Support\Facades\Blade as Facade;
 use Illuminate\Support\ServiceProvider;
 
@@ -23,6 +24,16 @@ class Blade extends ServiceProvider
     {
         Facade::directive('date', function ($expression) {
             return "<?php echo company_date($expression); ?>";
+        });
+
+        // Jalali (Shamsi) date directive: @jdate($timestamp)  / @jdate('Y/m/d', $ts)
+        Facade::directive('jdate', function ($expression) {
+            // Support both @jdate($ts) and @jdate('Y/m/d', $ts)
+            $args = explode(',', $expression, 2);
+            if (count($args) === 1) {
+                return "<?php echo \\"App\\Utilities\\Persian\\"::jdate('Y/m/d', $expression); ?>";
+            }
+            return "<?php echo \\"App\\Utilities\\Persian\\"::jdate($expression); ?>";
         });
 
         Facade::directive('widget', function ($expression) {

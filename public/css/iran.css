@@ -1,0 +1,80 @@
+/*
+ * Iran (fa-IR) localization styles for Akaunting
+ * Loaded automatically when the active locale is fa-IR.
+ */
+
+/* Preferred Persian font stack — Vazirmatn first (if installed on the server
+ * or via CDN), then common Persian/Arabic UI fonts available on Iranian
+ * users' machines (Tahoma comes bundled with Windows Persian support).
+ */
+html[lang="fa-IR"],
+html.rtl {
+    font-family: 'Vazirmatn', 'IRANSans', 'IRANSansX', 'Tahoma', 'Noto Sans Arabic',
+                 'Segoe UI', 'Roboto', sans-serif !important;
+}
+
+/* Nicer Persian/Arabic numerals rendering */
+html[lang="fa-IR"] body,
+html[lang="fa-IR"] .text-sm,
+html[lang="fa-IR"] td,
+html[lang="fa-IR"] th {
+    font-feature-settings: "ss01", "ss02";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+/* Force English / Latin text snippets (numbers, codes, emails) inside RTL
+ * blocks to use a LTR direction so they don't get jumbled.
+ */
+html[lang="fa-IR"] .ltr-text,
+html[lang="fa-IR"] input[type="email"],
+html[lang="fa-IR"] input[type="url"],
+html[lang="fa-IR"] input[type="number"],
+html[lang="fa-IR"] .numeric,
+html[lang="fa-IR"] code,
+html[lang="fa-IR"] pre {
+    direction: ltr;
+    unicode-bidi: embed;
+    text-align: left;
+    font-family: 'Vazirmatn', 'Tahoma', 'Courier New', monospace;
+}
+
+/* Fix form inputs so Persian text appears right-aligned */
+html[lang="fa-IR"] input[type="text"],
+html[lang="fa-IR"] input[type="password"],
+html[lang="fa-IR"] input[type="search"],
+html[lang="fa-IR"] input[type="tel"],
+html[lang="fa-IR"] textarea,
+html[lang="fa-IR"] select {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Tables: align numeric columns naturally to the left (since they're LTR
+ * inside RTL), and text columns to the right. */
+html[lang="fa-IR"] table td.text-right,
+html[lang="fa-IR"] table th.text-right {
+    text-align: left !important;
+}
+html[lang="fa-IR"] table td.text-left,
+html[lang="fa-IR"] table th.text-left {
+    text-align: right !important;
+}
+
+/* Make currency symbol appear correctly with Persian text */
+html[lang="fa-IR"] .money,
+html[lang="fa-IR"] .amount {
+    direction: ltr;
+    unicode-bidi: embed;
+    display: inline-block;
+    text-align: left;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Jalali date badge */
+.jalali-date::before {
+    content: "📅 ";
+    margin-left: 0.25rem;
+}
